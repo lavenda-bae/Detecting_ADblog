@@ -2,7 +2,7 @@
 
 ## ****📅 프로젝트 기간****
 
-1. 07. 13 ~ 22. 08. 04
+22.07.13 ~ 22.08.04
 
 ## ****📔 프로젝트 목적****
 
@@ -40,9 +40,9 @@
 - 크롤링 과정
     - ㅇ
 - 크롤링 결과
-    - 블로그 제목(Title), 본문 내용(Body), 이미지 수(Img), 스티커 수(Sticker), 지도 유무(Map), 비디오 유무(Video), 본문 길이(Body_len), 광고/비광고(Label)
-        
-        ![Untitled](README%20bac759cffe5a4c818716ce14ff9253de/Untitled.png)
+    - 블로그 제목(Title), 본문 내용(Body), 이미지 수(Img), 스티커 수(Sticker), 지도 유무(Map), 비디오 유무(Video), 본문 길이(Body_len), 광고/비광고(Label)   
+        ![Untitled](https://user-images.githubusercontent.com/104626180/204172695-b39870f6-36bf-43e6-ac32-8d8c2d90ee78.png)
+
         
 - 전처리
     - 한글 및 공백을 제외한 문자 제거
@@ -58,7 +58,7 @@
     - AdaBoost Classifier
     
 
-****📝 Machine Learning****
+## ****📝 Machine Learning****
 
 - 예측과정
     - body(텍스트 마이닝을 통해 라벨 예측) + Img, Sticker, Map, Video, Body_len(표준화 작업 후 라벨 예측) → voting Classifier
@@ -101,7 +101,7 @@
     - ExtraTreesClassifier
     - AdaBoostClassifier
 
-### **📊 결과**
+## **📊 결과**
 
 - 단일 모델 결과
     
@@ -125,13 +125,13 @@
     | Soft Voting(본문 + 본문 이외 특성) | 0.71 |
     | Hard Voting(본문 + 본문 이외 특성) | 0.70 |
 
-### 🔥 한계점
+## 🔥 한계점
 
 - 라벨(광고/비광고성)에 대한 주관성
 - 네이버 블로그의 높은 정보 오염도
-- 카운트 기반의 텍스트마이닝의 한계 → 딥러닝의 필요성
+- 카운트 기반의 텍스트마이닝의 한계 → 딥러닝의 필요성 
 
-### 🙌🏻 보완점
+## 🙌🏻 보완점
 
 - Feature importance를 찍어서 각 feature의 중요성을 확인해보기
 - 불용어 제거 전, 후의 성능 차이 확인
