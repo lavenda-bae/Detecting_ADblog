@@ -1,1 +1,0 @@
-# Detecting_ADblog
