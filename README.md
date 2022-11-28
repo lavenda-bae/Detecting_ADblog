@@ -1,5 +1,3 @@
-# README
-
 # Text-Mining Project
 
 ## ****📅 프로젝트 기간****
